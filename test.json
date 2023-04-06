@@ -109,7 +109,8 @@
         "SPARQL": "SELECT ?ownerName WHERE { hp:Elder_wand hp:owners ?owner . ?owner hp:name ?ownerName .}"
     },
     {
-        "question": "Who is the owner of the Hogwarts castle?",
+        "old_questio": "What is the name of the Hogwarts castle owner?",
+        "new_question": "Who is the owner of the Hogwarts castle?",
         "SPARQL": "SELECT ?ownerName WHERE { hp:Hogwarts_castle hp:owner ?owner . ?owner hp:name ?ownerName .}"
     },
     {
