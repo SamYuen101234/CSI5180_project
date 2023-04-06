@@ -1,0 +1,337 @@
+@prefix hp: <https://deepset.ai/harry_potter/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hp:Astronomy_tower hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:name hp:Astronomy_tower .
+
+hp:Council_of_magical_law hp:affiliation hp:British_ministry_of_magic ;
+    hp:name hp:Council_of_magical_law .
+
+hp:Headmaster hp:seat hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:style hp:Professor .
+
+hp:Mould_on_the_wold hp:location hp:England,
+        hp:Great_britain ;
+    hp:name hp:Mould_on_the_wold ;
+    hp:residents hp:Dumbledore_family .
+
+hp:Prefect hp:affiliation hp:Gryffindor,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:headquarters hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:leader hp:Head_boy_or_girl ;
+    hp:name hp:Prefect .
+
+hp:Transfiguration_today hp:name hp:Transfiguration_today ;
+    hp:subscribers hp:Albus_dumbledore .
+
+hp:Albus_dumbledores_wand hp:masters hp:Albus_dumbledore ;
+    hp:name hp:Albus_dumbledores_wand ;
+    hp:owners hp:Albus_dumbledore .
+
+hp:Highlands hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain,
+        hp:Scotland .
+
+hp:International_confederation_of_wizards hp:enemies hp:Gellert_grindelwald ;
+    hp:leader hp:Supreme_mugwump .
+
+hp:Wizengamot hp:affiliation hp:British_ministry_of_magic ;
+    hp:enemies hp:Order_of_the_phoenix ;
+    hp:headquarters hp:British_ministry_of_magic ;
+    hp:leader hp:Albus_dumbledore ;
+    hp:name hp:Wizengamot .
+
+hp:Defence_against_the_dark_arts hp:name hp:Defence_against_the_dark_arts ;
+    hp:professor hp:Albus_dumbledore,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry .
+
+hp:Elder_wand hp:aka hp:Albus_dumbledores_wand ;
+    hp:name hp:Elder_wand ;
+    hp:owners hp:Albus_dumbledore,
+        hp:Gellert_grindelwald,
+        hp:Harry_potter .
+
+hp:Phoenix hp:affiliation hp:Dumbledore_family ;
+    hp:distinction hp:Death ;
+    hp:name hp:Phoenix .
+
+hp:Hogwarts_castle hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain,
+        hp:Highlands,
+        hp:Scotland ;
+    hp:name hp:Hogwarts_castle ;
+    hp:owner hp:Hogwarts_school_of_witchcraft_and_wizardry .
+
+hp:Dumbledores_army hp:affiliation hp:Albus_dumbledore,
+        hp:Gryffindor,
+        hp:Harry_potter,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:enemies hp:British_ministry_of_magic ;
+    hp:founded hp:1997 ;
+    hp:founder hp:Harry_potter ;
+    hp:headquarters hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:intentions hp:Defence_against_the_dark_arts ;
+    hp:leader hp:Harry_potter ;
+    hp:name hp:Dumbledores_army .
+
+hp:Gellert_grindelwald a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:eyes hp:Blue ;
+    hp:gender hp:Male ;
+    hp:marital hp:Single ;
+    hp:name hp:Gellert_grindelwald ;
+    hp:romances hp:Albus_dumbledore ;
+    hp:species hp:Human ;
+    hp:wand hp:Elder_wand .
+
+hp:Harry_potter a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:born hp:England,
+        hp:Great_britain ;
+    hp:gender hp:Male ;
+    hp:house hp:Gryffindor ;
+    hp:job hp:Defence_against_the_dark_arts ;
+    hp:loyalty hp:Albus_dumbledore,
+        hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Gryffindor,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:nationality hp:England ;
+    hp:skin hp:Light ;
+    hp:species hp:Human ;
+    hp:title hp:Dumbledores_army ;
+    hp:wand hp:Elder_wand .
+
+hp:Credence_barebone a hp:Individual_ ;
+    hp:alleged_biological_family hp:Dumbledore_family ;
+    hp:blood hp:Half_blood ;
+    hp:family hp:Dumbledore_family ;
+    hp:gender hp:Male ;
+    hp:loyalty hp:Gellert_grindelwald ;
+    hp:name hp:Credence_barebone ;
+    hp:species hp:Human .
+
+hp:Order_of_the_phoenix hp:affiliation hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Harry_potter,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:founder hp:Albus_dumbledore ;
+    hp:leader hp:Albus_dumbledore ;
+    hp:name hp:Order_of_the_phoenix .
+
+hp:Scotland hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain ;
+    hp:name hp:Scotland .
+
+hp:British_ministry_of_magic hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:International_confederation_of_wizards ;
+    hp:enemies hp:Dumbledores_army,
+        hp:Gellert_grindelwald,
+        hp:Order_of_the_phoenix ;
+    hp:headquarters hp:England,
+        hp:Great_britain ;
+    hp:intentions hp:Great_britain .
+
+hp:Gryffindor hp:member_of hp:Albus_dumbledore ;
+    hp:name hp:Gryffindor .
+
+hp:Honoria a hp:Individual_ ;
+    hp:family hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Kendra_dumbledore,
+        hp:Percival_dumbledore ;
+    hp:loyalty hp:Dumbledore_family ;
+    hp:marital hp:Single ;
+    hp:name hp:Honoria ;
+    hp:nationality hp:Great_britain ;
+    hp:nephew hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore ;
+    hp:niece hp:Ariana_dumbledore ;
+    hp:species hp:Human .
+
+hp:England hp:affiliation hp:British_ministry_of_magic ;
+    hp:location hp:Great_britain ;
+    hp:name hp:England .
+
+hp:Human hp:name hp:Human .
+
+hp:Dumbledore_family hp:blood hp:Half_blood ;
+    hp:house hp:Gryffindor ;
+    hp:loyalty hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:members hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Credence_barebone,
+        hp:Kendra_dumbledore,
+        hp:Percival_dumbledore ;
+    hp:name hp:Dumbledore_family .
+
+hp:Kendra_dumbledore a hp:Individual_ ;
+    hp:daughter hp:Ariana_dumbledore ;
+    hp:died hp:England,
+        hp:Great_britain ;
+    hp:family hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Honoria,
+        hp:Percival_dumbledore ;
+    hp:husband hp:Percival_dumbledore ;
+    hp:loyalty hp:Dumbledore_family ;
+    hp:name hp:Kendra_dumbledore ;
+    hp:son hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore ;
+    hp:species hp:Human .
+
+hp:Percival_dumbledore a hp:Individual_ ;
+    hp:daughter hp:Ariana_dumbledore ;
+    hp:family hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Honoria,
+        hp:Kendra_dumbledore ;
+    hp:gender hp:Male ;
+    hp:loyalty hp:Dumbledore_family ;
+    hp:name hp:Percival_dumbledore ;
+    hp:nationality hp:Great_britain ;
+    hp:son hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore ;
+    hp:species hp:Human ;
+    hp:wife hp:Kendra_dumbledore .
+
+hp:Aberforth_dumbledore a hp:Individual_ ;
+    hp:alleged_relative hp:Credence_barebone ;
+    hp:aunt hp:Honoria ;
+    hp:blood hp:Half_blood ;
+    hp:born hp:Great_britain ;
+    hp:brother hp:Albus_dumbledore ;
+    hp:family hp:Albus_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Credence_barebone,
+        hp:Honoria,
+        hp:Kendra_dumbledore,
+        hp:Percival_dumbledore ;
+    hp:father hp:Percival_dumbledore ;
+    hp:gender hp:Male ;
+    hp:loyalty hp:Dumbledore_family,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:mother hp:Kendra_dumbledore ;
+    hp:name hp:Aberforth_dumbledore ;
+    hp:sister hp:Ariana_dumbledore ;
+    hp:skin hp:Light ;
+    hp:species hp:Human ;
+    hp:theme hp:Phoenix .
+
+hp:Ariana_dumbledore a hp:Individual_ ;
+    hp:alleged_relative hp:Credence_barebone ;
+    hp:aunt hp:Honoria ;
+    hp:blood hp:Half_blood ;
+    hp:brother hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore ;
+    hp:died hp:England ;
+    hp:family hp:Aberforth_dumbledore,
+        hp:Albus_dumbledore,
+        hp:Credence_barebone,
+        hp:Honoria,
+        hp:Kendra_dumbledore,
+        hp:Percival_dumbledore ;
+    hp:father hp:Percival_dumbledore ;
+    hp:loyalty hp:Dumbledore_family ;
+    hp:mother hp:Kendra_dumbledore ;
+    hp:name hp:Ariana_dumbledore ;
+    hp:nationality hp:Great_britain ;
+    hp:species hp:Human .
+
+hp:Great_britain hp:affiliation hp:England,
+        hp:Scotland ;
+    hp:name hp:Great_britain .
+
+hp:Hogwarts_school_of_witchcraft_and_wizardry hp:affiliation hp:British_ministry_of_magic,
+        hp:International_confederation_of_wizards ;
+    hp:house hp:Gryffindor ;
+    hp:location hp:Great_britain,
+        hp:Highlands,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:name hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:residents hp:Professor .
+
+hp:Albus_dumbledore a hp:Individual_ ;
+    hp:alleged_relative hp:Credence_barebone ;
+    hp:aunt hp:Honoria ;
+    hp:blood hp:Half_blood ;
+    hp:boggart hp:Death ;
+    hp:born hp:1881,
+        hp:August,
+        hp:England,
+        hp:Great_britain,
+        hp:Mould_on_the_wold ;
+    hp:brother hp:Aberforth_dumbledore ;
+    hp:died hp:1997,
+        hp:30_june,
+        hp:Astronomy_tower,
+        hp:Great_britain,
+        hp:Highlands,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:eyes hp:Blue ;
+    hp:family hp:Aberforth_dumbledore,
+        hp:Ariana_dumbledore,
+        hp:Credence_barebone,
+        hp:Honoria,
+        hp:Kendra_dumbledore,
+        hp:Percival_dumbledore ;
+    hp:father hp:Percival_dumbledore ;
+    hp:gender hp:Male ;
+    hp:hair hp:Silver_formerly_auburn ;
+    hp:height hp:511%27%27 ;
+    hp:house hp:Gryffindor ;
+    hp:job hp:Defence_against_the_dark_arts,
+        hp:Headmaster,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Professor,
+        hp:Transfiguration_,
+        hp:Transfiguration_today ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Council_of_magical_law,
+        hp:Dumbledore_family,
+        hp:Dumbledores_army,
+        hp:Gryffindor,
+        hp:Harry_potter,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:International_confederation_of_wizards,
+        hp:Order_of_merlin,
+        hp:Order_of_the_phoenix,
+        hp:Transfiguration_department_,
+        hp:Wizengamot ;
+    hp:marital hp:Single ;
+    hp:mother hp:Kendra_dumbledore ;
+    hp:name hp:Albus_percival_wulfric_brian_dumbledore ;
+    hp:nationality hp:England ;
+    hp:patronus hp:Phoenix ;
+    hp:romances hp:Gellert_grindelwald ;
+    hp:sister hp:Ariana_dumbledore ;
+    hp:skin hp:Light ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"^^xsd:string ;
+    hp:species hp:Human ;
+    hp:theme hp:Phoenix ;
+    hp:title hp:Grand_sorcerer,
+        hp:Head_boy_or_girl,
+        hp:Head_of_transfiguration,
+        hp:Headmaster,
+        hp:Prefect,
+        hp:Professor,
+        hp:Supreme_mugwump,
+        hp:Wizengamot ;
+    hp:wand hp:Albus_dumbledores_wand,
+        hp:Elder_wand ;
+    hp:weight hp:168_lbs .
+

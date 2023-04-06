@@ -1,0 +1,433 @@
+@prefix hp: <https://deepset.ai/harry_potter/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hp:Advisor_to_the_minister_for_magic hp:source_url "https://harrypotter.fandom.com/wiki/Advisor_to_the_Minister_for_Magic"^^xsd:string .
+
+hp:Stylish_wizard_of_the_year hp:source_url "https://harrypotter.fandom.com/wiki/Stylish_Wizard_of_the_Year"^^xsd:string .
+
+hp:British_ministry_of_magic_headquarters hp:affiliation hp:British_ministry_of_magic ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:location hp:Great_britain .
+
+hp:Chief_warlock_of_the_wizengamot_in_1544 a hp:Individual_ ;
+    hp:gender hp:Male ;
+    hp:job hp:Chief_warlock,
+        hp:Wizengamot ;
+    hp:name hp:Chief_warlock_of_the_wizengamot_in_1544 ;
+    hp:species hp:Human ;
+    hp:theme hp:Mom ;
+    hp:title hp:Chief_warlock .
+
+hp:Cornelius_fudges_wand a hp:Wand_ ;
+    hp:made hp:1993 ;
+    hp:masters hp:Cornelius_fudge ;
+    hp:name hp:Cornelius_fudges_wand ;
+    hp:owners hp:Cornelius_fudge ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Cornelius_Fudge's_wand"^^xsd:string .
+
+hp:Educational_office a hp:Organisation_ ;
+    hp:affiliation hp:International_confederation_of_wizards,
+        hp:Wizardkind ;
+    hp:leader hp:International_confederation_of_wizards ;
+    hp:name hp:Educational_office .
+
+hp:Hufflepuff hp:name hp:Hufflepuff .
+
+hp:Improper_use_of_magic_office a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic,
+        hp:Department_of_magical_law_enforcement ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Death_eaters,
+        hp:Order_of_the_phoenix,
+        hp:Tom_riddle ;
+    hp:headquarters hp:British_ministry_of_magic ;
+    hp:name hp:Improper_use_of_magic_office .
+
+hp:Minister_for_magics_office hp:affiliation hp:British_ministry_of_magic ;
+    hp:location hp:British_ministry_of_magic_headquarters ;
+    hp:name hp:Minister_for_magics_office .
+
+hp:Order_of_merlin hp:source_url "https://harrypotter.fandom.com/wiki/Order_of_Merlin"^^xsd:string .
+
+hp:Peeves a hp:Individual_ ;
+    hp:gender hp:Male ;
+    hp:loyalty hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix .
+
+hp:Queenie_goldstein a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:name hp:Queenie_goldstein ;
+    hp:species hp:Human .
+
+hp:Ravenclaw hp:name hp:Ravenclaw .
+
+hp:Department_of_magical_accidents_and_catastrophes a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Death_eaters,
+        hp:Order_of_the_phoenix,
+        hp:Tom_riddle ;
+    hp:headquarters hp:British_ministry_of_magic ;
+    hp:intentions hp:Reverting_the_consequences_of_major_magical_mishaps ;
+    hp:name hp:Department_of_magical_accidents_and_catastrophes ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Department_of_Magical_Accidents_and_Catastrophes"^^xsd:string .
+
+hp:Hermione_granger a hp:Individual_ ;
+    hp:born hp:Great_britain ;
+    hp:house hp:Gryffindor ;
+    hp:job hp:Department_of_magical_law_enforcement,
+        hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Department_of_magical_law_enforcement,
+        hp:Gryffindor,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:species hp:Human ;
+    hp:theme hp:Mom ;
+    hp:title hp:Department_of_magical_law_enforcement,
+        hp:Minister_for_magic .
+
+hp:Pure_blood hp:source_url "https://harrypotter.fandom.com/wiki/Pure-blood"^^xsd:string .
+
+hp:Cornelius_fudges_wife a hp:Individual_ ;
+    hp:family hp:Cornelius_fudge,
+        hp:Rufus_fudge ;
+    hp:husband hp:Cornelius_fudge ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Fudge_family ;
+    hp:nephew hp:Rufus_fudge ;
+    hp:species hp:Human .
+
+hp:Dark_wizard a hp:Organisation_ ;
+    hp:enemies hp:British_ministry_of_magic,
+        hp:Order_of_the_phoenix ;
+    hp:name hp:Dark_wizard .
+
+hp:Fudge_family hp:blood hp:Wizardkind ;
+    hp:loyalty hp:British_ministry_of_magic ;
+    hp:members hp:Cornelius_fudge ;
+    hp:name hp:Fudge_family .
+
+hp:Highlands hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain,
+        hp:Scotland .
+
+hp:Hogwarts_castle hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain,
+        hp:Highlands,
+        hp:Scotland ;
+    hp:name hp:Hogwarts_castle ;
+    hp:owner hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:residents hp:Peeves .
+
+hp:Slytherin hp:member_of hp:Death_eaters,
+        hp:Tom_riddle ;
+    hp:name hp:Slytherin .
+
+hp:Ulick_gamp a hp:Individual_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:gender hp:Male ;
+    hp:job hp:Chief_warlock,
+        hp:Minister_for_magic,
+        hp:Wizengamot ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Great_britain,
+        hp:Wizengamot ;
+    hp:name hp:Ulick_gamp ;
+    hp:species hp:Human ;
+    hp:theme hp:Mom ;
+    hp:title hp:Chief_warlock,
+        hp:Minister_for_magic,
+        hp:Wizengamot .
+
+hp:International_confederation_of_wizards a hp:Organisation_ ;
+    hp:enemies hp:Death_eaters,
+        hp:Tom_riddle .
+
+hp:Minerva_mcgonagall a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:boggart hp:Tom_riddle ;
+    hp:born hp:Great_britain,
+        hp:Scotland ;
+    hp:house hp:Gryffindor ;
+    hp:job hp:Department_of_magical_law_enforcement,
+        hp:Professor ;
+    hp:loyalty hp:Albus_dumbledore,
+        hp:British_ministry_of_magic,
+        hp:Department_of_magical_law_enforcement,
+        hp:Gryffindor,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:name hp:Minerva_mcgonagall ;
+    hp:nationality hp:Scotland ;
+    hp:species hp:Human ;
+    hp:title hp:Professor .
+
+hp:Rufus_fudge a hp:Individual_ ;
+    hp:aunt hp:Cornelius_fudges_wife ;
+    hp:born hp:1981 ;
+    hp:family hp:Cornelius_fudge,
+        hp:Cornelius_fudges_wife ;
+    hp:gender hp:Male ;
+    hp:job hp:Improper_use_of_magic_office ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Fudge_family ;
+    hp:name hp:Rufus_fudge ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Rufus_Fudge"^^xsd:string ;
+    hp:species hp:Human ;
+    hp:theme hp:Mom ;
+    hp:uncle hp:Cornelius_fudge .
+
+hp:Squib a hp:Creature_ ;
+    hp:affiliation hp:Non_magic_people,
+        hp:Wizardkind ;
+    hp:class hp:Being ;
+    hp:distinction hp:Wizardkind ;
+    hp:name hp:Squib ;
+    hp:related hp:Non_magic_people,
+        hp:Wizardkind ;
+    hp:status hp:Extant .
+
+hp:Albus_dumbledore a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:born hp:Great_britain ;
+    hp:died hp:Great_britain,
+        hp:Highlands,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:gender hp:Male ;
+    hp:house hp:Gryffindor ;
+    hp:job hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Professor ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Gryffindor,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:International_confederation_of_wizards,
+        hp:Order_of_merlin,
+        hp:Order_of_the_phoenix,
+        hp:Wizengamot ;
+    hp:species hp:Human ;
+    hp:title hp:Professor,
+        hp:Wizengamot .
+
+hp:Half_blood hp:source_url "https://harrypotter.fandom.com/wiki/Half-blood"^^xsd:string .
+
+hp:Non_magic_people a hp:Creature_ ;
+    hp:affiliation hp:Squib ;
+    hp:class hp:Being ;
+    hp:mortality hp:Mortality ;
+    hp:name hp:Non_magic_people ;
+    hp:related hp:Squib,
+        hp:Wizardkind ;
+    hp:status hp:Extant .
+
+hp:Cornelius_fudge a hp:Individual_ ;
+    hp:alias hp:Goblin_crusher_,
+        hp:The_other_minister_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:boggart hp:Tom_riddle ;
+    hp:born hp:1964,
+        hp:Great_britain ;
+    hp:family hp:Cornelius_fudges_wife,
+        hp:Rufus_fudge ;
+    hp:gender hp:Male ;
+    hp:hair hp:Grey ;
+    hp:job hp:Advisor_to_the_minister_for_magic,
+        hp:Department_of_magical_accidents_and_catastrophes,
+        hp:Minister_for_magic,
+        hp:Non_magic_people ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Department_of_magical_accidents_and_catastrophes,
+        hp:Fudge_family,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_merlin,
+        hp:Wizengamot ;
+    hp:marital hp:Married_ ;
+    hp:name hp:Cornelius_oswald_fudge ;
+    hp:nationality hp:Great_britain ;
+    hp:nephew hp:Rufus_fudge ;
+    hp:patronus hp:Non_corporeal ;
+    hp:skin hp:White ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Cornelius_Fudge"^^xsd:string ;
+    hp:species hp:Human ;
+    hp:theme hp:Mom ;
+    hp:title hp:Minister_for_magic,
+        hp:Stylish_wizard_of_the_year ;
+    hp:wand hp:Cornelius_fudges_wand ;
+    hp:wife hp:Cornelius_fudges_wife .
+
+hp:Department_of_magical_law_enforcement a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Dark_wizard,
+        hp:Death_eaters,
+        hp:Order_of_the_phoenix,
+        hp:Tom_riddle ;
+    hp:founded hp:1707 ;
+    hp:founder hp:Ulick_gamp ;
+    hp:headquarters hp:British_ministry_of_magic ;
+    hp:leader hp:Minister_for_magic ;
+    hp:name hp:Department_of_magical_law_enforcement .
+
+hp:Gryffindor hp:head hp:Minerva_mcgonagall ;
+    hp:member_of hp:Albus_dumbledore,
+        hp:Hermione_granger,
+        hp:Minerva_mcgonagall ;
+    hp:name hp:Gryffindor .
+
+hp:Wizardkind a hp:Creature_ ;
+    hp:affiliation hp:Half_blood,
+        hp:Pure_blood ;
+    hp:class hp:Being ;
+    hp:mortality hp:Mortality ;
+    hp:name hp:Wizardkind ;
+    hp:related hp:Non_magic_people,
+        hp:Squib ;
+    hp:status hp:Extant .
+
+hp:Wizengamot a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic,
+        hp:Department_of_magical_law_enforcement ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Dark_wizard,
+        hp:Death_eaters,
+        hp:Order_of_the_phoenix,
+        hp:Tom_riddle ;
+    hp:headquarters hp:British_ministry_of_magic ;
+    hp:intentions hp:Legislative_and_judicial_branch_of_wizarding_britain ;
+    hp:leader hp:Albus_dumbledore,
+        hp:Chief_warlock,
+        hp:Chief_warlock_of_the_wizengamot_in_1544,
+        hp:Ulick_gamp ;
+    hp:name hp:Wizengamot ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Wizengamot"^^xsd:string .
+
+hp:Minister_for_magic a hp:Official_post_ ;
+    hp:appointer hp:British_wizarding_society_through_democratic_election ;
+    hp:first hp:Ulick_gamp ;
+    hp:formation hp:1707 ;
+    hp:imagesize hp:200px ;
+    hp:insignia hp:Ministryofmagiclogo_cursed_child_svg ;
+    hp:insigniacaption hp:Seal_of_the_ministry_of_magic ;
+    hp:insigniasize hp:100px ;
+    hp:institution hp:British_ministry_of_magic ;
+    hp:office_holder hp:Hermione_granger ;
+    hp:post hp:Minister_for_magic ;
+    hp:precursor hp:Chief_of_the_wizards_council ;
+    hp:seat hp:British_ministry_of_magic_headquarters,
+        hp:Minister_for_magics_office ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Minister_for_Magic"^^xsd:string ;
+    hp:style hp:Minister ;
+    hp:termlength hp:No_fixed_limit_there_must_be_elections_at_a_maximum_interval_of_seven_years .
+
+hp:Scotland hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:location hp:Great_britain ;
+    hp:name hp:Scotland .
+
+hp:Death_eaters a hp:Organisation_ ;
+    hp:enemies hp:Albus_dumbledore,
+        hp:British_ministry_of_magic,
+        hp:Non_magic_people,
+        hp:Order_of_the_phoenix ;
+    hp:founder hp:Tom_riddle ;
+    hp:leader hp:Tom_riddle ;
+    hp:name hp:Death_eaters .
+
+hp:Human a hp:Creature_ ;
+    hp:affiliation hp:Non_magic_people,
+        hp:Squib,
+        hp:Wizardkind ;
+    hp:alias hp:Men,
+        hp:Women ;
+    hp:class hp:Being ;
+    hp:distinction hp:Bipedal ;
+    hp:eyes <https://deepset.ai/harry_potter/%5Bvaries%5D> ;
+    hp:hair <https://deepset.ai/harry_potter/%5Bvaries%5D> ;
+    hp:height hp:Approx_1_50_to_2_10_meters ;
+    hp:mortality hp:Mortality ;
+    hp:name hp:Human ;
+    hp:native hp:Whole_world ;
+    hp:skin <https://deepset.ai/harry_potter/%5Bvaries%5D> ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Human"^^xsd:string ;
+    hp:status hp:Extant .
+
+hp:Order_of_the_phoenix a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:dissolved hp:1981 ;
+    hp:enemies hp:Death_eaters,
+        hp:Tom_riddle ;
+    hp:founder hp:Albus_dumbledore ;
+    hp:intentions hp:Tom_riddle ;
+    hp:leader hp:Albus_dumbledore,
+        hp:Minerva_mcgonagall ;
+    hp:name hp:Order_of_the_phoenix .
+
+hp:Tom_riddle a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:born hp:Great_britain ;
+    hp:died hp:Great_britain,
+        hp:Highlands,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:gender hp:Male ;
+    hp:house hp:Slytherin ;
+    hp:job hp:Death_eaters ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Death_eaters,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Slytherin ;
+    hp:species hp:Human ;
+    hp:title hp:Dark_wizard .
+
+hp:Hogwarts_school_of_witchcraft_and_wizardry a hp:School_ ;
+    hp:affiliation hp:British_ministry_of_magic,
+        hp:Educational_office,
+        hp:International_confederation_of_wizards ;
+    hp:alias hp:Ogwarts_unidentified_beauxbatons_girl_%5D%5D,
+        hp:Queenie_goldstein ;
+    hp:bgcolor hp:800080,
+        hp:Ffd700 ;
+    hp:established hp:9th_or_10th_century ;
+    hp:headmaster hp:Minerva_mcgonagall ;
+    hp:house hp:Gryffindor,
+        hp:Hufflepuff,
+        hp:Ravenclaw,
+        hp:Slytherin ;
+    hp:location hp:Great_britain,
+        hp:Highlands,
+        hp:Hogwarts_castle,
+        hp:Scotland ;
+    hp:motto hp:Draco_dormiens_nunquam_titillandus_ ;
+    hp:name hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:residents hp:Ghost_house_ghosts,
+        hp:Hogwarts_students,
+        hp:Peeves,
+        hp:Professor ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"^^xsd:string .
+
+hp:Great_britain hp:affiliation hp:Scotland ;
+    hp:name hp:Great_britain .
+
+hp:British_ministry_of_magic a hp:Organisation_ ;
+    hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:International_confederation_of_wizards ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Cornelius_fudge,
+        hp:Death_eaters,
+        hp:Order_of_the_phoenix,
+        hp:Tom_riddle ;
+    hp:founded hp:1707 ;
+    hp:headquarters hp:Great_britain ;
+    hp:intentions hp:Great_britain ;
+    hp:leader hp:Hermione_granger,
+        hp:Minister_for_magic .
+

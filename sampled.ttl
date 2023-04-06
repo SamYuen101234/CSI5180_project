@@ -1,0 +1,238 @@
+@prefix hp: <https://deepset.ai/harry_potter/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hp:Cornelius_fudge a hp:Individual_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:boggart hp:Tom_riddle ;
+    hp:born hp:Great_britain ;
+    hp:gender hp:Male ;
+    hp:job hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:nationality hp:Great_britain ;
+    hp:patronus hp:Non_corporeal ;
+    hp:skin hp:White ;
+    hp:species hp:Human ;
+    hp:title hp:Minister_for_magic .
+
+hp:Ministry_of_magic a hp:Organisation_ ;
+    hp:affiliation hp:International_confederation_of_wizards ;
+    hp:leader hp:Minister_for_magic .
+
+hp:Hector_fawley a hp:Individual_ ;
+    hp:blood hp:Pure_blood ;
+    hp:gender hp:Male ;
+    hp:job hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic ;
+    hp:name hp:Hector_fawley ;
+    hp:species hp:Human ;
+    hp:title hp:Minister_for_magic .
+
+hp:Pius_thicknesse a hp:Individual_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:gender hp:Male ;
+    hp:job hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Death_eaters ;
+    hp:name hp:Pius_thicknesse ;
+    hp:nationality hp:Great_britain ;
+    hp:species hp:Human ;
+    hp:title hp:Minister_for_magic .
+
+hp:Whitehall hp:affiliation hp:British_ministry_of_magic ;
+    hp:location hp:England,
+        hp:London ;
+    hp:name hp:Whitehall .
+
+hp:Edgecombe_family a hp:Family_ ;
+    hp:blood hp:Wizarding_family_of_unknown_degree ;
+    hp:house hp:Ravenclaw ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:members hp:Marietta_edgecombe,
+        hp:Marietta_edgecombes_father,
+        hp:Marietta_edgecombes_mother ;
+    hp:name hp:Edgecombe_family ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Edgecombe_family"^^xsd:string ;
+    hp:status hp:Extant_ .
+
+hp:Gellert_grindelwald a hp:Individual_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:gender hp:Male ;
+    hp:name hp:Gellert_grindelwald ;
+    hp:patronus hp:Non_corporeal ;
+    hp:species hp:Human .
+
+hp:Hermione_granger a hp:Individual_ ;
+    hp:blood hp:Muggle_born ;
+    hp:born hp:England,
+        hp:Great_britain ;
+    hp:gender hp:Female ;
+    hp:job hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix ;
+    hp:nationality hp:England ;
+    hp:species hp:Human ;
+    hp:title hp:Minister_for_magic .
+
+hp:International_confederation_of_wizards a hp:Organisation_ ;
+    hp:enemies hp:Death_eaters,
+        hp:Gellert_grindelwald,
+        hp:Tom_riddle .
+
+hp:Marietta_edgecombes_father a hp:Individual_ ;
+    hp:daughter hp:Marietta_edgecombe ;
+    hp:family hp:Marietta_edgecombe,
+        hp:Marietta_edgecombes_mother ;
+    hp:gender hp:Male ;
+    hp:loyalty hp:Edgecombe_family ;
+    hp:name hp:Mr_edgecombe ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Marietta_Edgecombe's_father"^^xsd:string ;
+    hp:species hp:Human ;
+    hp:theme hp:Individual ;
+    hp:wife hp:Marietta_edgecombes_mother .
+
+hp:Millicent_bagnold a hp:Individual_ ;
+    hp:born hp:Great_britain ;
+    hp:gender hp:Female ;
+    hp:house hp:Ravenclaw ;
+    hp:job hp:Minister_for_magic ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Ravenclaw ;
+    hp:name hp:Millicent_bagnold ;
+    hp:nationality hp:Great_britain ;
+    hp:species hp:Human ;
+    hp:title hp:Minister_for_magic .
+
+hp:London hp:location hp:England,
+        hp:Great_britain ;
+    hp:name hp:London ;
+    hp:residents hp:Tom_riddle .
+
+hp:Order_of_the_phoenix a hp:Organisation_ ;
+    hp:affiliation hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:enemies hp:Death_eaters,
+        hp:Tom_riddle ;
+    hp:intentions hp:Tom_riddle ;
+    hp:name hp:Order_of_the_phoenix .
+
+hp:Dumbledores_army a hp:Organisation_ ;
+    hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Order_of_the_phoenix,
+        hp:Ravenclaw ;
+    hp:enemies hp:British_ministry_of_magic,
+        hp:Death_eaters,
+        hp:Tom_riddle ;
+    hp:founder hp:Hermione_granger ;
+    hp:headquarters hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:member_of hp:Marietta_edgecombe ;
+    hp:name hp:Dumbledores_army .
+
+hp:Marietta_edgecombe a hp:Individual_ ;
+    hp:blood hp:Half_blood,
+        hp:Pure_blood ;
+    hp:born hp:1978,
+        hp:1982 ;
+    hp:family hp:Marietta_edgecombes_father,
+        hp:Marietta_edgecombes_mother ;
+    hp:father hp:Marietta_edgecombes_father ;
+    hp:gender hp:Female ;
+    hp:hair hp:Reddish_blonde ;
+    hp:house hp:Ravenclaw ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Edgecombe_family,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:Ravenclaw ;
+    hp:mother hp:Marietta_edgecombes_mother ;
+    hp:name hp:Marietta_edgecombe ;
+    hp:nationality hp:_gborie_ ;
+    hp:patronus hp:Non_corporeal ;
+    hp:skin hp:White ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/Marietta_Edgecombe"^^xsd:string ;
+    hp:species hp:Human ;
+    hp:theme hp:Ravenclaw ;
+    hp:wand hp:Unknown_length_wood_and_core .
+
+hp:Death_eaters a hp:Organisation_ ;
+    hp:enemies hp:British_ministry_of_magic,
+        hp:Dumbledores_army,
+        hp:Muggle_born,
+        hp:Order_of_the_phoenix ;
+    hp:founder hp:Tom_riddle ;
+    hp:leader hp:Tom_riddle ;
+    hp:name hp:Death_eaters .
+
+hp:England hp:affiliation hp:British_ministry_of_magic ;
+    hp:location hp:Great_britain ;
+    hp:name hp:England .
+
+hp:Ravenclaw hp:common_room hp:Marietta_edgecombe,
+        hp:Millicent_bagnold ;
+    hp:name hp:Ravenclaw .
+
+hp:Tom_riddle a hp:Individual_ ;
+    hp:blood hp:Half_blood ;
+    hp:born hp:England,
+        hp:Great_britain,
+        hp:London ;
+    hp:died hp:Great_britain ;
+    hp:gender hp:Male ;
+    hp:job hp:Death_eaters ;
+    hp:loyalty hp:British_ministry_of_magic,
+        hp:Death_eaters,
+        hp:Hogwarts_school_of_witchcraft_and_wizardry ;
+    hp:nationality hp:England ;
+    hp:species hp:Human .
+
+hp:Human hp:name hp:Human .
+
+hp:Hogwarts_school_of_witchcraft_and_wizardry hp:affiliation hp:British_ministry_of_magic,
+        hp:International_confederation_of_wizards ;
+    hp:house hp:Ravenclaw ;
+    hp:location hp:Great_britain ;
+    hp:name hp:Hogwarts_school_of_witchcraft_and_wizardry .
+
+hp:Minister_for_magic hp:formation hp:1707 ;
+    hp:institution hp:British_ministry_of_magic ;
+    hp:office_holder hp:Hermione_granger ;
+    hp:post hp:Minister_for_magic .
+
+hp:Great_britain hp:affiliation hp:England ;
+    hp:name hp:Great_britain .
+
+hp:British_ministry_of_magic a hp:Organisation_ ;
+    hp:affiliation hp:Hogwarts_school_of_witchcraft_and_wizardry,
+        hp:International_confederation_of_wizards ;
+    hp:bgcolor hp:9966cc,
+        hp:C9a0dc ;
+    hp:enemies hp:Cornelius_fudge,
+        hp:Death_eaters,
+        hp:Dumbledores_army,
+        hp:Gellert_grindelwald,
+        hp:Gellert_grindelwalds_army,
+        hp:Hector_fawley,
+        hp:Millicent_bagnold,
+        hp:Muggle_born,
+        hp:Order_of_the_phoenix,
+        hp:Pius_thicknesse,
+        hp:Tom_riddle ;
+    hp:founded hp:1707 ;
+    hp:headquarters hp:England,
+        hp:Great_britain,
+        hp:London,
+        hp:Whitehall ;
+    hp:intentions hp:Great_britain ;
+    hp:leader hp:Hermione_granger,
+        hp:Minister_for_magic ;
+    hp:name hp:Ministry_of_magic ;
+    hp:source_url "https://harrypotter.fandom.com/wiki/British_Ministry_of_Magic"^^xsd:string .
+

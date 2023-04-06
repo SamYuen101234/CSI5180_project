@@ -1,0 +1,6 @@
+@prefix ns1: <https://deepset.ai/harry_potter/> .
+
+ns1:abc ns1:son ns1:Marietta_edgecombes_father .
+
+ns1:Marietta_edgecombes_father ns1:gender ns1:Male .
+
